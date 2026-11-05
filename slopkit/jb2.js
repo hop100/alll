@@ -36,14 +36,14 @@ const params = new URLSearchParams(location.search);
 function hostOk() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML ='<span style="color: #10e610;">GoldHEN Berhasil Dimuat ...</span>';
+    m.innerHTML ='<span style="color: #10e610;">ENG/MOHAB ESAM FANTAZIA PLAYSTATION ...</span>';
   }
 }
 
 function hostFail() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML = "Gagal Memuat! Mulai Ulang Konsol Anda ...";
+    m.innerHTML = "REBOT ...";
     m.style.color = "#ff0000";
   }
 }
@@ -51,14 +51,14 @@ function hostFail() {
 function hostAlready() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML ='<span style="color: #10e610;">GoldHEN Sudah Dimuat ...</span>';
+    m.innerHTML ='<span style="color: #10e610;">GoldHEN LODED ...</span>';
   }
 }
 
 function hostRetry() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML ='<span style="color: #e9e30a;">Gagal Untuk Memuat ! Buka Kembali Browser Anda ...</span>';
+    m.innerHTML ='<span style="color: #e9e30a;">TRY AGAIN ...</span>';
   }
 }
 
