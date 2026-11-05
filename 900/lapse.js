@@ -1695,7 +1695,7 @@ export async function kexploit() {
     }
     
     if (localStorage.ExploitLoaded === "yes" && sessionStorage.ExploitLoaded != "yes") {
-        msgs.innerHTML ='<span style="color: #10e610;">GoldHEN Sudah Dimuat ...</span>';
+        msgs.innerHTML ='<span style="color: #10e610;">ENG/MOHAB ESAM ...</span>';
         return new Promise(() => {});
     }
  
@@ -1831,9 +1831,9 @@ function runPayload(PLfile) {
 kexploit().then(() => {
 	setTimeout(() => {
 		runPayload("./goldhen_2.4b18.13.bin");
-		msgs.innerHTML ='<span style="color: #10e610;">GoldHEN Berhasil Dimuat ...</span>';
+		msgs.innerHTML ='<span style="color: #10e610;">ENG/MOHAB ESAM ...</span>';
 	},500);
 }).catch(() => {
-    msgs.innerHTML = "Gagal Memuat! Mulai Ulang Konsol Anda ...";
+    msgs.innerHTML = "REBOT ...";
 	msgs.style.color = "yellow";
 });
