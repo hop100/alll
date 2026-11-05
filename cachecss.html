@@ -28,7 +28,7 @@ function setMsg(htmlContent, type) {
 
 function DLProgress(e){
     Percent = Math.round(e.loaded / e.total * 100);
-    setMsg("Menginstal Cache Offline: " + Percent + "%", "running");
+    setMsg(" Cache Offline: " + Percent + "%", "running");
     
     var bar = document.getElementById("pbar");
     if (bar) {
@@ -37,7 +37,7 @@ function DLProgress(e){
 }
 
 function DisplayCacheProgress(){
-    setMsg("Cache Berhasil Diinstal", "success");
+    setMsg("Cache loded", "success");
     var bar = document.getElementById("pbar");
     if (bar) {
         bar.style.width = "100%";
@@ -52,7 +52,7 @@ if (window.applicationCache) {
     window.applicationCache.oncached = function(e){ DisplayCacheProgress(); };
     window.applicationCache.onupdateready = function(e){ DisplayCacheProgress(); };
     window.applicationCache.onerror = function(e){
-        setMsg("Kesalahan Saat Menginstal Cache! - Bersihkan dan Buka Kembali Browser Anda ...", "error");
+        setMsg("TRY AGIN...", "error");
     };
 }
 </script>
