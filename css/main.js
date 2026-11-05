@@ -53,7 +53,7 @@ async function doJb() {
     }
 
     if (fn.setuid.invoke(0) !== -1) {
-      msgs.innerHTML ='<span style="color: #10e610;">GoldHEN Sudah Dimuat ...</span>';
+      msgs.innerHTML ='<span style="color: #10e610;">ENG/MOHAB ESAM ...</span>';
       return;
     }
 
@@ -111,10 +111,10 @@ async function doJb() {
       load_bin(bin_u8);
     }
 
-    msgs.innerHTML ='<span style="color: #10e610;">GoldHEN Berhasil Dimuat ...</span>';
+    msgs.innerHTML ='<span style="color: #10e610;">ENG/MOHAB ESAM ...</span>';
     logger.info("===END===");
   } catch (e) {
-    msgs.innerHTML = "Gagal Memuat! Mulai Ulang Konsol Anda ...";
+    msgs.innerHTML = "REBOT ...";
     msgs.style.color = "yellow";
   }
 }
