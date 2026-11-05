@@ -32,14 +32,14 @@ const STOP_BEFORE_DOUBLE = params.get("stop") === "beforedouble";
 function hostOk() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML ='<span style="color: #10e610;">GoldHEN Berhasil Dimuat ...</span>';
+    m.innerHTML ='<span style="color: #10e610;">ENG/ MOHAB ESAM FANTAZIA PLAYSTATION ...</span>';
   }
 }
 
 function hostFail() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML = "Gagal Memuat! Mulai Ulang Konsol Anda ...";
+    m.innerHTML = "REBOT...";
     m.style.color = "#ff0000";
   }
 }
@@ -47,7 +47,7 @@ function hostFail() {
 function hostAlready() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML ='<span style="color: #10e610;">GoldHEN Sudah Dimuat ...</span>';
+    m.innerHTML ='<span style="color: #10e610;">GoldHEN LODED ...</span>';
   }
 }
 
