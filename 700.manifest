@@ -1,9 +1,9 @@
 CACHE MANIFEST 
 
-CACHE: 
+CACHE:
 logo.png
-style.css
-goldhen_2.4b18.12.bin
+apache.css
+goldhen_2.4b18.13.bin
 index.html
 700\alert.js
 700\config.js

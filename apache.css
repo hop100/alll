@@ -1,0 +1,204 @@
+/* Styling Tampilan Modern & Gaming Theme (Diambil dari index.html) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0f172a;
+    color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background: #1e293b;
+    border: 7px solid #60ff00;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 880px;
+    padding: 30px 20px;
+    margin: auto;
+}
+
+.logo-container {
+  margin: 25px 0 25px 0;
+}
+
+.logo {
+  max-width: 140px;
+  height: auto;
+  border-radius: 16px;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.4));
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 12px 20px rgba(56, 189, 248, 0.3));
+}
+
+.header-title {
+    color: #e1e8ea;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: none;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #334155;
+    padding-bottom: 15px;
+}
+
+.status-card {
+    background: #0f172a;
+    border-radius: 12px;
+    border: 3px solid #1ef0ff;
+    padding: 30px 20px;
+    margin: 20px 0;
+    box-shadow: inset 0 0 15px rgba(56, 189, 248, 0.1);
+}
+
+#msgs {
+    font-size: 22px;
+    color: #ffffff; 
+    font-weight: 600;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+#msgs.success {
+    color: #00fa0d !important;
+}
+
+#msgs.error {
+    color: #fc0000 !important;
+}
+
+.thanks-section {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #94a3b8;
+    border-top: 1px solid #334155;
+    padding-top: 20px;
+}
+
+.thanks-section h3 {
+    color: #ff0000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.credits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.credit-item {
+    background: #334155;
+    border: 2px solid #6eff00;
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.credit-item:hover {
+  background: #6eff00;
+  color: #0f172a;
+  border-color: #ee0000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(56, 189, 248, 0.3);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #64748b;
+}
+
+/* 
+  Elemen tambahan dari style.css lama yang dipertahankan
+  untuk menjaga fungsionalitas menu dan tombol, namun diubah warnanya agar sesuai tema
+*/
+h1 {
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 25px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#progress, #menu {
+    display: block;
+}
+
+#crypto, #tools, #lnx, #mods {
+    display: none;
+}
+
+.btn {
+    background-color: #334155;
+    color: #f8fafc;
+    width: 227px;
+    height: 46px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #38bdf8;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+.btn-onln {
+    background-color: #065f46;
+    border-color: #10b981;
+}
+
+.btn-onln:hover {
+    background-color: #10b981;
+    color: #0f172a;
+}
+
+.btn-toolbox {
+    background-color: #7f1d1d;
+    border-color: #ef4444;
+}
+
+.btn-toolbox:hover {
+    background-color: #ef4444;
+    color: #f8fafc;
+}
+
+.btn-multi {
+    background-color: #854d0e;
+    border-color: #eab308;
+}
+
+.btn-multi:hover {
+    background-color: #eab308;
+    color: #0f172a;
+}
